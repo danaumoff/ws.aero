@@ -1,0 +1,235 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/TTF/Montserrat.ttf") format("truetype");
+}
+
+body {
+    font-family: "Montserrat";
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    max-width: 800px;
+    font-weight: bold;
+}
+
+
+/* Логотип кампании */
+
+.logo {
+    width: 200px;
+}
+
+
+/* Шапка сайта */
+
+.menu {
+    padding: 10px 0;
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    background-color: #AF3BD4;
+    font-weight: bold;
+}
+
+
+/* Описание принципов работы комании */
+
+.elem_1 {
+    padding: 10px 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    background-color: #133AAC;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/* Сленг компании */
+
+.sleng {
+    padding: 10px 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 150%;
+    background-color: #67E667;
+    font-weight: bold;
+}
+
+
+/* Поиск рейса */
+
+.section_1 {
+    padding: 10px 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    background-color: #6D87D6;
+    font-weight: bold;
+}
+
+
+/* Картинки промоакции */
+
+.promo_img {
+    width: 250px;
+}
+
+
+/* Промоакции */
+
+.promo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #B964D4;
+    font-weight: bold;
+}
+
+
+/* Подписка на емейл-рассылку */
+
+.email {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #062170;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* Подвал */
+
+.footer_nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu_a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn,
+input[type="button"] {
+    align-items: center;
+    text-align: left;
+    padding: 14px 24px;
+    height: 52px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background: #67E667;
+    border-radius: 10px;
+    border: none;
+    outline: 0;
+    outline-offset: 0;
+    z-index: 5;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+/* Оформление таблицы с результатами поиска */
+
+table {
+    font-family: "Montserrat";
+    font-size: 14px;
+    border-spacing: 0;
+    text-align: center;
+    max-width: 1820px;
+    width: 100%;
+}
+
+th {
+    background-color: #6D87D6;
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 8px;
+    font-weight: bold;
+}
+
+th,
+td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+th:first-child,
+td:first-child {
+    text-align: left;
+}
+
+td {
+    padding: 10px 8px;
+    background: #67E667;
+    font-weight: bold;
+}
+
+#table {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Кнопки по сайту */
+
+
+/* Кнопки-места в самолёте на seat.html */
+
+.btn-1 {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 1em;
+    outline: none;
+    transition: 0.2s;
+    margin-top: 5px;
+    font-size: 22.3px;
+    font-family: "Montserrat";
+}
